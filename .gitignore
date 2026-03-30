@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+
+# Variables de entorno (aquí va tu API key — NUNCA subir a GitHub)
+.env
+
+# Embeddings locales (pesan mucho)
+embeddings/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Datos sensibles
+data/
